@@ -1,0 +1,7 @@
+{
+  "on_peak": [
+    { "start": "17:00", "end": "20:00" }
+  ],
+  "on_peak_rate": 0.3655,
+  "off_peak_rate": 0.1305
+}
