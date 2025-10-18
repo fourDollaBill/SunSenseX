@@ -36,10 +36,10 @@ def load_json(path: str):
         return json.load(f)
 
 def load_tariff() -> Dict[str, Any]:
-    return load_json(os.path.join(DATA_DIR, "tariff_default.json"))
+    return load_json(os.path.join(DATA_DIR, "tariff.json"))
 
 def load_appliances() -> List[Dict[str, Any]]:
-    return load_json(os.path.join(DATA_DIR, "appliances_default.json"))
+    return load_json(os.path.join(DATA_DIR, "appliances.json"))
 
 def try_load_forecast() -> List[Dict[str, Any]]:
     # optional: load forecast_sunny.json if you have it
