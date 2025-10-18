@@ -1,0 +1,1 @@
+api = https://api.openweathermap.org/data/3.0/onecall?lat=38.58&lon=–121.49&exclude=minutely,daily,alerts&appid=20a639f38bf2866878c4101b283071ad
